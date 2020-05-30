@@ -2330,6 +2330,90 @@ body {
   margin-right: 10px;
 }
 
+.page-404__wrapper,
+.about__wrapper {
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  margin-bottom: 150px;
+}
+
+.page-404__head,
+.about__head {
+  font-size: 24px;
+  color: #444;
+  padding: 23px 27px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.page-404__inner {
+  text-align: center;
+  background-color: #8bc34a;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+.page-404__404 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 300px;
+  color: #fff;
+  padding-top: 80px;
+  line-height: 300px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.page-404__404::after {
+  content: '';
+  position: absolute;
+  background-image: url(../images/Layer.png);
+  width: 150px;
+  height: 292px;
+  margin-left: 20px;
+}
+
+.page-404__title {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.page-404__text {
+  max-width: 550px;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.page-404__link {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 30px 16px;
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.about__inner {
+  padding: 0px 50px;
+}
+
+.about__box h3 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #444;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.about__box p {
+  margin-bottom: 40px;
+}
+
 @media (max-width: 1150px) {
   .footer__inner {
     -ms-flex-wrap: wrap;
